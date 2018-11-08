@@ -1,6 +1,7 @@
 # $OpenBSD$
 
 TRYTON_VERSION =	5.0
+TRYTON_VERSION_COMPAT =	>=5.0,<5.1
 PORTROACH =		limit:^5\.0
 
 CATEGORIES ?=		productivity \
@@ -23,15 +24,15 @@ COMMENT ?=		trytond ${TRYTON_MODULE} module
 DISTNAME ?=		trytond_${TRYTON_MODULE}-${MODPY_EGG_VERSION}
 PKGNAME ?=		trytond-module-${TRYTON_MODULE}-${MODPY_EGG_VERSION}
 
-RUN_DEPENDS +=		productivity/tryton/${TRYTON_VERSION}/trytond
+RUN_DEPENDS +=		productivity/tryton/${TRYTON_VERSION}/trytond${TRYTON_VERSION_COMPAT}
 .  if defined(TRYTON_DEPENDS)
 .    for _m in ${TRYTON_DEPENDS}
-RUN_DEPENDS +=		productivity/tryton/${TRYTON_VERSION}/${_m}
+RUN_DEPENDS +=		productivity/tryton/${TRYTON_VERSION}/${_m}${TRYTON_VERSION_COMPAT}
 .    endfor
 .  endif
 
 TEST_DEPENDS +=		${FULLPKGNAME}:${BUILD_PKGPATH} \
-			productivity/tryton/${TRYTON_VERSION}/proteus
+			productivity/tryton/${TRYTON_VERSION}/proteus${TRYTON_VERSION_COMPAT}
 .endif
 
 .if defined(TRYTON_PY) && ${TRYTON_PY:L} == "yes"
