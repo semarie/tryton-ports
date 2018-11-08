@@ -27,14 +27,14 @@ RUN_DEPENDS +=		productivity/tryton/${TRYTON_VERSION}/${_m}${TRYTON_VERSION_COMP
 .    endfor
 .  endif
 
-TEST_DEPENDS +=		productivity/tryton/${TRYTON_VERSION}/proteus${TRYTON_VERSION_COMPAT}
+TEST_DEPENDS +=		productivity/tryton/${TRYTON_VERSION}/proteus${TRYTON_VERSION_COMPAT} \
+			${FULLPKGNAME}:${BUILD_PKGPATH}
 .endif
 
 .if defined(TRYTON_PY) && ${TRYTON_PY:L} == "yes"
 MODULES +=		lang/python
 MODPY_VERSION ?=	${MODPY_DEFAULT_VERSION_3}
 MODPY_SETUPTOOLS ?=	Yes
-TEST_DEPENDS +=		${RUN_DEPENDS} \
-			${FULLPKGNAME}:${BUILD_PKGPATH}
+TEST_DEPENDS +=		${RUN_DEPENDS}
 TEST_ENV +=		DB_NAME=:memory:
 .endif
