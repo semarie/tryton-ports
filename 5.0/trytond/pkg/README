@@ -79,6 +79,8 @@ Once the configuration file configured, you could initialize the database using:
 
 	# su _trytond -c "trytond-admin -c /etc/trytond/server.ini -v --all -d mydatabase1"
 
+it will ask you for admin email and password, and configure the database accordingly.
+
 
 Trytond upgrade
 ===============
@@ -86,11 +88,12 @@ Trytond upgrade
 Minor upgrade
 -------------
 
-You should update the informations registered in database using filesystem information.
+You should update the modules information registered in database using
+filesystem information.
 
 	# su _trytond -c "trytond-admin -c /etc/trytond/server.ini -v -m -d mydatabase1"
 
-And start upgrade of the modules.
+And next, start the upgrade of the modules.
 
 	# su _trytond -c "trytond-admin -c /etc/trytond/server.ini -v --all -d mydatabase1"
 
