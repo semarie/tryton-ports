@@ -10,8 +10,12 @@ MAINTAINER ?=		Sebastien Marie <semarie@online.fr>
 # GPLv3
 PERMIT_PACKAGE_CDROM ?=	Yes
 
-MASTER_SITES =		https://downloads.tryton.org/${MODPY_EGG_VERSION:C/^([0-9]+\.[0-9]+).*/\1/}/
+MASTER_SITES =		https://downloads.tryton.org/${VERSION:C/^([0-9]+\.[0-9]+).*/\1/}/
 DIST_SUBDIR =		tryton
+
+.if defined(MODPY_EGG_VERSION)
+VERSION ?=		${MODPY_EGG_VERSION}
+.endif
 
 .if defined(TRYTON_MODULE)
 TRYTON_PY =		Yes
