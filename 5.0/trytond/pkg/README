@@ -65,6 +65,9 @@ Useful flags on rcscript are:
 By default, configuration file is at ${SYSCONFDIR}/trytond/server.conf and
 logging configuration at ${SYSCONFDIR}/trytond/logging.conf .
 
+Please note that --database is mandatory for trytond_cron and trytond_worker,
+else the daemons will don't know which databases to monitor and they will do
+nothing.
 
 Configuration file
 ------------------
