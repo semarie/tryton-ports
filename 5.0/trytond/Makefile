@@ -7,6 +7,8 @@ DISTNAME =		trytond-${MODPY_EGG_VERSION}
 
 TRYTON_PY =		Yes
 
+SUBST_VARS +=		TRYTON_VERSION
+
 # TODO
 # - rc.d scripts (trytond, trytond_worker, trytond_cron)
 # - _tryton user for running server
@@ -26,5 +28,13 @@ RUN_DEPENDS +=		security/py-passlib${MODPY_FLAVOR}
 #RUN_DEPENDS +=		levenshtein	# optional, not ported
 #RUN_DEPENDS +=		bcrypt		# optional, not ported
 RUN_DEPENDS +=		converters/py-html2text${MODPY_FLAVOR}
+
+
+post-install:
+	${INSTALL_DATA_DIR} ${PREFIX}/share/examples/trytond
+	${SUBST_CMD} -m 0444 -c ${FILESDIR}/server.conf \
+		${PREFIX}/share/examples/trytond/server.conf
+	${SUBST_CMD} -m 0444 -c ${FILESDIR}/logging.conf \
+		${PREFIX}/share/examples/trytond/logging.conf
 
 .include <bsd.port.mk>

@@ -1,5 +1,10 @@
 @comment $OpenBSD: PLIST,v$
 @option is-branch
+@newgroup _trytond:821
+@newuser _trytond:821:821:daemon:Trytond Daemon:/var/trytond:/sbin/nologin
+@rcscript ${RCDIR}/trytond
+@rcscript ${RCDIR}/trytond_cron
+@rcscript ${RCDIR}/trytond_worker
 bin/trytond
 bin/trytond-admin
 bin/trytond-cron
@@ -647,3 +652,18 @@ lib/python${MODPY_VERSION}/site-packages/trytond/wizard/${MODPY_PYCACHE}wizard.$
 lib/python${MODPY_VERSION}/site-packages/trytond/wizard/wizard.py
 lib/python${MODPY_VERSION}/site-packages/trytond/worker.py
 lib/python${MODPY_VERSION}/site-packages/trytond/wsgi.py
+share/doc/pkg-readmes/${PKGSTEM}
+share/examples/trytond/
+@mode 750
+@group _trytond
+@sample ${SYSCONFDIR}/trytond/
+@mode
+@group
+share/examples/trytond/logging.conf
+@sample ${SYSCONFDIR}/trytond/logging.conf
+share/examples/trytond/server.conf
+@sample ${SYSCONFDIR}/trytond/server.conf
+@mode 750
+@group _trytond
+@owner _trytond
+@extra ${LOCALSTATEDIR}/trytond/
