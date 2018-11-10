@@ -9,11 +9,6 @@ TRYTON_PY =		Yes
 
 SUBST_VARS +=		TRYTON_VERSION
 
-# TODO
-# - rc.d scripts (trytond, trytond_worker, trytond_cron)
-# - _tryton user for running server
-# - example trytond.conf file
-
 RUN_DEPENDS +=		databases/py-psycopg2${MODPY_FLAVOR}
 RUN_DEPENDS += 		textproc/py-lxml${MODPY_FLAVOR}
 RUN_DEPENDS +=		print/py-relatorio${MODPY_FLAVOR}
