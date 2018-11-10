@@ -40,7 +40,7 @@ The database should be created using createdb(1) tool from postgresql.
 	# su _postgresql -c "createdb -U postgres -O tryton_user -E UTF8 mydatabase1"
 	Password: my-secret-postgresql-password
 
-And it should be initialized wih trytond-admin(1) tool from trytond, after the
+And it should be initialized with trytond-admin(1) tool from trytond, after the
 configuration file has been configured.
 
 
