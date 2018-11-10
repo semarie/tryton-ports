@@ -665,5 +665,7 @@ share/examples/trytond/server.conf
 @sample ${SYSCONFDIR}/trytond/server.conf
 @mode 750
 @group _trytond
+@sample ${LOCALSTATEDIR}/trytond/
 @owner _trytond
-@extra ${LOCALSTATEDIR}/trytond/
+@sample ${LOCALSTATEDIR}/trytond/db/
+@sample ${LOCALSTATEDIR}/trytond/logs/
