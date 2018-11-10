@@ -1,0 +1,14 @@
+$OpenBSD$
+For offline to not use the network.
+Index: package.json
+--- package.json.orig
++++ package.json
+@@ -32,7 +32,7 @@
+   ],
+   "scripts": {
+     "test": "./node_modules/.bin/grunt test",
+-    "postinstall": "./node_modules/.bin/bower install"
++    "postinstall": "./node_modules/.bin/bower install --offline"
+   },
+   "devDependencies": {
+     "grunt-contrib-nodeunit": "^0.4",
