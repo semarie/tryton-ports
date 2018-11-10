@@ -62,7 +62,7 @@ Useful flags on rcscript are:
 
 - configuration file : `--config FILE [ FILE ...]`
 - logging configuration file (ConfigParser format) : `--logconf FILE`
-- database name to preload : `--database DATABASE [DATABASE ...]`
+- database name to use : `--database DATABASE [DATABASE ...]`
 
 By default, configuration file is at ${SYSCONFDIR}/trytond/server.conf and
 logging configuration at ${SYSCONFDIR}/trytond/logging.conf .
@@ -70,6 +70,11 @@ logging configuration at ${SYSCONFDIR}/trytond/logging.conf .
 Please note that `--database` is required for trytond_cron and trytond_worker,
 else the daemons will don't know which databases to monitor and they will do
 nothing.
+
+	# rcctl set trytond flags $(rcctl getdef trytond flags) --database mydatabase1
+	# rcctl set trytond_cron flags $(rcctl getdef trytond_cron flags) --database mydatabase1
+	# rcctl set trytond_worker flags $(rcctl getdef trytond_worker flags) --database mydatabase1
+
 
 Configuration file
 ------------------
