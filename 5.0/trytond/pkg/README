@@ -52,20 +52,22 @@ Rcscripts
 ---------
 
 trytond comes with 3 rcscripts:
-  - trytond : trytond server listening on HTTP
-  - trytond_cron : trytond cron service
-  - trytond_worker : trytond asynchronous task service
-    (see http://doc.tryton.org/projects/trytond/en/${TRYTON_VERSION}/topics/configuration.html#worker)
+
+- trytond : trytond server listening on HTTP
+- trytond_cron : trytond cron service
+- trytond_worker : trytond asynchronous task service
+  (see http://doc.tryton.org/projects/trytond/en/${TRYTON_VERSION}/topics/configuration.html#worker)
 
 Useful flags on rcscript are:
-  - configuration file : --config FILE [ FILE ...]
-  - logging configuration file (ConfigParser format) : --logconf FILE
-  - database name to preload : --database DATABASE [DATABASE ...]
+
+- configuration file : `--config FILE [ FILE ...]`
+- logging configuration file (ConfigParser format) : `--logconf FILE`
+- database name to preload : `--database DATABASE [DATABASE ...]`
 
 By default, configuration file is at ${SYSCONFDIR}/trytond/server.conf and
 logging configuration at ${SYSCONFDIR}/trytond/logging.conf .
 
-Please note that --database is mandatory for trytond_cron and trytond_worker,
+Please note that `--database` is required for trytond_cron and trytond_worker,
 else the daemons will don't know which databases to monitor and they will do
 nothing.
 
