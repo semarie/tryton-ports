@@ -667,10 +667,6 @@ share/examples/trytond/server.conf
 @group _trytond
 @sample ${LOCALSTATEDIR}/trytond/
 @sample ${LOCALSTATEDIR}/trytond/.local/
-@sample ${LOCALSTATEDIR}/trytond/.local/bin/
-@sample ${LOCALSTATEDIR}/trytond/.local/lib/
-@sample ${LOCALSTATEDIR}/trytond/.local/lib/python${MODPY_VERSION}/
-@sample ${LOCALSTATEDIR}/trytond/.local/lib/python${MODPY_VERSION}/site-packages/
 @mode 750
 @owner _trytond
 @sample ${LOCALSTATEDIR}/trytond/db/

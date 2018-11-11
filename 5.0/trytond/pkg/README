@@ -136,8 +136,7 @@ To keep proper control on read-write directories used by `_trytond` user, you
 should make the `site-packages` directory writeable only for you (and readable
 by `_trytond`). As root, you could do the following:
 
-	# chown user ${LOCALSTATEDIR}/trytond/.local/bin/
-	# chown user ${LOCALSTATEDIR}/trytond/.local/lib/python${MODPY_VERSION}/site-packages/
+	# chown user ${LOCALSTATEDIR}/trytond/.local/
 
 Next, when installing a new module as user, you could temporary change the
 `HOME` environement variable to run the install command.
