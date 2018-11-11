@@ -120,3 +120,36 @@ Upgrade path is possible from N to N+1 version.
 Follow indications at https://discuss.tryton.org/c/migration .
 
 Please take care that possibly some actions are required to be done BEFORE updating.
+
+
+customization via trytond modules
+=================================
+
+Customization on Tryton is expected to be done via installation of modules.
+
+To easy inclusion of local modules without installing them at system level, the
+recommanded way is to use the per-user site-packages directory (PEP-370). For
+the default user used for running `trytond` daemon (`_trytond` user), the
+directory is at `${LOCALSTATEDIR}/trytond/.local/lib/python${MODPY_VERSION}/site-packages/`.
+
+To keep proper control on read-write directories used by `_trytond` user, you
+should make the `site-packages` directory writeable only for you (and readable
+by `_trytond`). As root, you could do the following:
+
+	# chown user ${LOCALSTATEDIR}/trytond/.local/bin/
+	# chown user ${LOCALSTATEDIR}/trytond/.local/lib/python${MODPY_VERSION}/site-packages/
+
+Next, when installing a new module as user, you could temporary change the
+`HOME` environement variable to run the install command.
+
+Example of installing a module from local directory, using `setuptools`:
+
+	$ cd path/to/my-local-tryton-module
+	$ HOME=${LOCALSTATEDIR}/trytond python${MODPY_VERSION} ./setup.py install --user
+
+or installing a module using pip${MODPY_VERSION} (installable from ports):
+
+	$ cd path/to/my-local-tryton-module
+	$ HOME=${LOCALSTATEDIR}/trytond pip${MODPY_VERSION} install --user .
+
+	$ HOME=${LOCALSTATEDIR}/trytond pip${MODPY_VERSION} install --user my-module
