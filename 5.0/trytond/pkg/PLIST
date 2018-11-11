@@ -663,9 +663,14 @@ share/examples/trytond/logging.conf
 @sample ${SYSCONFDIR}/trytond/logging.conf
 share/examples/trytond/server.conf
 @sample ${SYSCONFDIR}/trytond/server.conf
-@mode 750
+@mode 755
 @group _trytond
 @sample ${LOCALSTATEDIR}/trytond/
+@sample ${LOCALSTATEDIR}/trytond/.local/
+@sample ${LOCALSTATEDIR}/trytond/.local/lib/
+@sample ${LOCALSTATEDIR}/trytond/.local/lib/python${MODPY_VERSION}/
+@sample ${LOCALSTATEDIR}/trytond/.local/lib/python${MODPY_VERSION}/site-packages/
+@mode 750
 @owner _trytond
 @sample ${LOCALSTATEDIR}/trytond/db/
 @sample ${LOCALSTATEDIR}/trytond/logs/
