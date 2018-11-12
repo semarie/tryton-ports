@@ -20,8 +20,7 @@ RUN_DEPENDS +=		productivity/tryton/${TRYTON_VERSION}/trytond
 SUBST_VARS +=		TRYTON_VERSION
 PORTHOME =		${WRKDIR}/sao-dependencies-${TRYTON_VERSION}
 
-#post-extract:
-#	cp ${PORTHOME}/package-lock.json ${WRKSRC}
+NO_TEST =		Yes
 
 do-build:
 	cd ${WRKSRC} && ${SETENV} ${MAKE_ENV} npm install --production --offline
