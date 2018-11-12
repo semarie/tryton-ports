@@ -9,6 +9,8 @@ bin/trytond
 bin/trytond-admin
 bin/trytond-cron
 bin/trytond-worker
+lib/python${MODPY_VERSION}/
+lib/python${MODPY_VERSION}/site-packages/
 lib/python${MODPY_VERSION}/site-packages/trytond/
 lib/python${MODPY_VERSION}/site-packages/trytond-${MODPY_EGG_VERSION}-py${MODPY_VERSION}.egg-info/
 lib/python${MODPY_VERSION}/site-packages/trytond-${MODPY_EGG_VERSION}-py${MODPY_VERSION}.egg-info/PKG-INFO
@@ -653,6 +655,10 @@ lib/python${MODPY_VERSION}/site-packages/trytond/wizard/wizard.py
 lib/python${MODPY_VERSION}/site-packages/trytond/worker.py
 lib/python${MODPY_VERSION}/site-packages/trytond/wsgi.py
 share/doc/pkg-readmes/${PKGSTEM}
+share/doc/trytond-${MODPY_EGG_VERSION}/
+share/doc/trytond-${MODPY_EGG_VERSION}/CHANGELOG
+share/doc/trytond-${MODPY_EGG_VERSION}/COPYRIGHT
+share/doc/trytond-${MODPY_EGG_VERSION}/README
 share/examples/trytond/
 @mode 750
 @group _trytond

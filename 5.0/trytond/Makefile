@@ -31,5 +31,8 @@ post-install:
 		${PREFIX}/share/examples/trytond/server.conf
 	${SUBST_CMD} -m 0444 -c ${FILESDIR}/logging.conf \
 		${PREFIX}/share/examples/trytond/logging.conf
+	${INSTALL_DATA_DIR} ${PREFIX}/share/doc/${DISTNAME}
+	${INSTALL_DATA} ${WRKSRC}/{README,COPYRIGHT,CHANGELOG} \
+		${PREFIX}/share/doc/${DISTNAME}
 
 .include <bsd.port.mk>
