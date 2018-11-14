@@ -1,6 +1,6 @@
 # $OpenBSD$
 
-MODPY_EGG_VERSION =	5.0.0
+MODPY_EGG_VERSION =	5.0.1
 TRYTON_MODULE =		account
 
 TRYTON_DEPENDS +=	party
