@@ -2,7 +2,7 @@
 
 COMMENT =		tryton web client
 
-VERSION =		5.0.0
+VERSION =		5.0.1
 DEPVERSION =		0
 DISTNAME =		tryton-sao-${VERSION}
 
@@ -40,8 +40,8 @@ do-install:
 	${INSTALL_DATA} ${FILESDIR}/custom.css ${FILESDIR}/custom.js \
 		${PREFIX}/share/examples/tryton-sao-${TRYTON_VERSION}
 
-	${INSTALL_DATA_DIR} ${PREFIX}/share/doc/${DISTNAME}
+	${INSTALL_DATA_DIR} ${PREFIX}/share/doc/tryton-sao-${TRYTON_VERSION}
 	${INSTALL_DATA} ${WRKSRC}/{README,LICENSE,COPYRIGHT,CHANGELOG} \
-		${PREFIX}/share/doc/${DISTNAME}
+		${PREFIX}/share/doc/tryton-sao-${TRYTON_VERSION}
 
 .include <bsd.port.mk>

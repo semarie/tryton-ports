@@ -1,9 +1,9 @@
 @comment $OpenBSD: PLIST,v$
-share/doc/tryton-sao-5.0.0/
-share/doc/tryton-sao-5.0.0/CHANGELOG
-share/doc/tryton-sao-5.0.0/COPYRIGHT
-share/doc/tryton-sao-5.0.0/LICENSE
-share/doc/tryton-sao-5.0.0/README
+share/doc/tryton-sao-${TRYTON_VERSION}/
+share/doc/tryton-sao-${TRYTON_VERSION}/CHANGELOG
+share/doc/tryton-sao-${TRYTON_VERSION}/COPYRIGHT
+share/doc/tryton-sao-${TRYTON_VERSION}/LICENSE
+share/doc/tryton-sao-${TRYTON_VERSION}/README
 share/examples/tryton-sao-${TRYTON_VERSION}/
 share/examples/tryton-sao-${TRYTON_VERSION}/custom.css
 @sample share/tryton-sao-${TRYTON_VERSION}/custom.css
