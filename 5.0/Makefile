@@ -3,6 +3,7 @@
 SUBDIR =
 
 SUBDIR +=	account
+SUBDIR +=	account_fr
 SUBDIR +=	company
 SUBDIR +=	country
 SUBDIR +=	currency
