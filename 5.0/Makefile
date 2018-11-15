@@ -9,6 +9,7 @@ SUBDIR +=	country
 SUBDIR +=	currency
 SUBDIR +=	party
 SUBDIR +=	party_siret
+SUBDIR +=	product
 
 SUBDIR +=	proteus
 SUBDIR +=	sao
