@@ -1,5 +1,7 @@
 @comment $OpenBSD: PLIST,v$
 @option is-branch
+lib/python${MODPY_VERSION}/
+lib/python${MODPY_VERSION}/site-packages/
 lib/python${MODPY_VERSION}/site-packages/proteus/
 lib/python${MODPY_VERSION}/site-packages/proteus-${MODPY_EGG_VERSION}-py${MODPY_VERSION}.egg-info/
 lib/python${MODPY_VERSION}/site-packages/proteus-${MODPY_EGG_VERSION}-py${MODPY_VERSION}.egg-info/PKG-INFO
@@ -31,3 +33,7 @@ lib/python${MODPY_VERSION}/site-packages/proteus/tests/test_context.py
 lib/python${MODPY_VERSION}/site-packages/proteus/tests/test_model.py
 lib/python${MODPY_VERSION}/site-packages/proteus/tests/test_report.py
 lib/python${MODPY_VERSION}/site-packages/proteus/tests/test_wizard.py
+share/doc/proteus-${MODPY_EGG_VERSION}/
+share/doc/proteus-${MODPY_EGG_VERSION}/CHANGELOG
+share/doc/proteus-${MODPY_EGG_VERSION}/COPYRIGHT
+share/doc/proteus-${MODPY_EGG_VERSION}/README
