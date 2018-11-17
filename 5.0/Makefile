@@ -9,6 +9,7 @@ SUBDIR +=	account_invoice
 SUBDIR +=	account_invoice_stock
 SUBDIR +=	account_payment
 SUBDIR +=	account_product
+SUBDIR +=	bank
 SUBDIR +=	company
 SUBDIR +=	country
 SUBDIR +=	currency
