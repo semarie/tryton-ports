@@ -9,8 +9,6 @@ bin/trytond
 bin/trytond-admin
 bin/trytond-cron
 bin/trytond-worker
-lib/python${MODPY_VERSION}/
-lib/python${MODPY_VERSION}/site-packages/
 lib/python${MODPY_VERSION}/site-packages/trytond/
 lib/python${MODPY_VERSION}/site-packages/trytond-${MODPY_EGG_VERSION}-py${MODPY_VERSION}.egg-info/
 lib/python${MODPY_VERSION}/site-packages/trytond-${MODPY_EGG_VERSION}-py${MODPY_VERSION}.egg-info/PKG-INFO

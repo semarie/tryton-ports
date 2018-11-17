@@ -1,7 +1,5 @@
 @comment $OpenBSD: PLIST,v$
 bin/tryton
-lib/python${MODPY_VERSION}/
-lib/python${MODPY_VERSION}/site-packages/
 lib/python${MODPY_VERSION}/site-packages/tryton/
 lib/python${MODPY_VERSION}/site-packages/tryton-${MODPY_EGG_VERSION}-py${MODPY_VERSION}.egg-info/
 lib/python${MODPY_VERSION}/site-packages/tryton-${MODPY_EGG_VERSION}-py${MODPY_VERSION}.egg-info/PKG-INFO
@@ -408,16 +406,11 @@ lib/python${MODPY_VERSION}/site-packages/tryton/pyson.py
 lib/python${MODPY_VERSION}/site-packages/tryton/rpc.py
 lib/python${MODPY_VERSION}/site-packages/tryton/signal_event.py
 lib/python${MODPY_VERSION}/site-packages/tryton/translate.py
-share/applications/
 share/applications/tryton.desktop
 share/doc/tryton-${MODPY_EGG_VERSION}/
 share/doc/tryton-${MODPY_EGG_VERSION}/CHANGELOG
 share/doc/tryton-${MODPY_EGG_VERSION}/COPYRIGHT
 share/doc/tryton-${MODPY_EGG_VERSION}/README
-share/icons/
-share/icons/hicolor/
-share/icons/hicolor/32x32/
-share/icons/hicolor/32x32/apps/
 share/icons/hicolor/32x32/apps/tryton-icon.png
 @tag gtk-update-icon-cache %D/share/icons/hicolor
 @tag update-desktop-database

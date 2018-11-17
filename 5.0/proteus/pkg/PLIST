@@ -1,7 +1,5 @@
 @comment $OpenBSD: PLIST,v$
 @option is-branch
-lib/python${MODPY_VERSION}/
-lib/python${MODPY_VERSION}/site-packages/
 lib/python${MODPY_VERSION}/site-packages/proteus/
 lib/python${MODPY_VERSION}/site-packages/proteus-${MODPY_EGG_VERSION}-py${MODPY_VERSION}.egg-info/
 lib/python${MODPY_VERSION}/site-packages/proteus-${MODPY_EGG_VERSION}-py${MODPY_VERSION}.egg-info/PKG-INFO

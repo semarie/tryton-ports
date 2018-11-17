@@ -1,9 +1,5 @@
 @comment $OpenBSD: PLIST,v$
 @option is-branch
-lib/python${MODPY_VERSION}/
-lib/python${MODPY_VERSION}/site-packages/
-lib/python${MODPY_VERSION}/site-packages/trytond/
-lib/python${MODPY_VERSION}/site-packages/trytond/modules/
 lib/python${MODPY_VERSION}/site-packages/trytond/modules/product/
 lib/python${MODPY_VERSION}/site-packages/trytond/modules/product/__init__.py
 lib/python${MODPY_VERSION}/site-packages/trytond/modules/product/${MODPY_PYCACHE}/
