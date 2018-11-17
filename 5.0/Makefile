@@ -12,6 +12,7 @@ SUBDIR +=	account_payment_clearing
 SUBDIR +=	account_payment_sepa
 SUBDIR +=	account_product
 SUBDIR +=	account_statement
+SUBDIR +=	account_statement_ofx
 SUBDIR +=	bank
 SUBDIR +=	company
 SUBDIR +=	country
