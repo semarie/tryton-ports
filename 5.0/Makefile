@@ -8,6 +8,7 @@ SUBDIR +=	account_fr
 SUBDIR +=	account_invoice
 SUBDIR +=	account_invoice_stock
 SUBDIR +=	account_payment
+SUBDIR +=	account_payment_clearing
 SUBDIR +=	account_payment_sepa
 SUBDIR +=	account_product
 SUBDIR +=	account_statement
