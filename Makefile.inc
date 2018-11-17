@@ -33,6 +33,11 @@ RUN_DEPENDS +=		productivity/tryton/${TRYTON_VERSION}/${_m}${TRYTON_VERSION_COMP
 
 TEST_DEPENDS +=		productivity/tryton/${TRYTON_VERSION}/proteus${TRYTON_VERSION_COMPAT} \
 			${FULLPKGNAME}:${BUILD_PKGPATH}
+.  if defined(TRYTON_TEST_DEPENDS)
+.    for _m in ${TRYTON_TEST_DEPENDS}
+TEST_DEPENDS +=		productivity/tryton/${TRYTON_VERSION}/${_m}${TRYTON_VERSION_COMPAT}
+.    endfor
+.  endif
 .endif
 
 .if defined(TRYTON_PY) && ${TRYTON_PY:L} == "yes"
