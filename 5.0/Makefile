@@ -14,6 +14,7 @@ SUBDIR +=	account_product
 SUBDIR +=	account_statement
 SUBDIR +=	account_statement_ofx
 SUBDIR +=	analytic_account
+SUBDIR +=	analytic_invoice
 SUBDIR +=	bank
 SUBDIR +=	company
 SUBDIR +=	country
