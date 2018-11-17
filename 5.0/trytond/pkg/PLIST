@@ -1,7 +1,7 @@
 @comment $OpenBSD: PLIST,v$
 @option is-branch
 @newgroup _trytond:822
-@newuser _trytond:822:822:daemon:Trytond Daemon:/var/trytond:/sbin/nologin
+@newuser _trytond:822:822:daemon:Trytond Daemon:/var/trytond:/bin/sh
 @rcscript ${RCDIR}/trytond
 @rcscript ${RCDIR}/trytond_cron
 @rcscript ${RCDIR}/trytond_worker
