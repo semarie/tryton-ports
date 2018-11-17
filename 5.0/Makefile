@@ -12,6 +12,7 @@ SUBDIR +=	currency
 SUBDIR +=	party
 SUBDIR +=	party_siret
 SUBDIR +=	product
+SUBDIR +=	stock
 
 SUBDIR +=	proteus
 SUBDIR +=	sao
