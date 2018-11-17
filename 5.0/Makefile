@@ -5,6 +5,7 @@ SUBDIR =
 SUBDIR +=	account
 SUBDIR +=	account_fr
 SUBDIR +=	account_invoice
+SUBDIR +=	account_invoice_stock
 SUBDIR +=	account_product
 SUBDIR +=	company
 SUBDIR +=	country
