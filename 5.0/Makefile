@@ -7,6 +7,7 @@ SUBDIR +=	account_asset
 SUBDIR +=	account_fr
 SUBDIR +=	account_invoice
 SUBDIR +=	account_invoice_stock
+SUBDIR +=	account_payment
 SUBDIR +=	account_product
 SUBDIR +=	company
 SUBDIR +=	country
