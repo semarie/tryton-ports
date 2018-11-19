@@ -7,6 +7,7 @@ SUBDIR +=	account_asset
 SUBDIR +=	account_be
 SUBDIR +=	account_credit_limit
 SUBDIR +=	account_de_skr03
+SUBDIR +=	account_deposit
 SUBDIR +=	account_eu
 SUBDIR +=	account_fr
 SUBDIR +=	account_fr_chorus
