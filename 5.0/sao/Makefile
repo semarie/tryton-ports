@@ -10,8 +10,8 @@ EXTRACT_SUFX =		.tgz
 WRKDIST =		${WRKDIR}/package
 
 MASTER_SITES0 =		http://kapouay.odns.fr/pub/tryton/
-SUPDISTFILES +=		sao-dependencies-${TRYTON_VERSION}-${DEPVERSION}.zip:0
-EXTRACT_ONLY =		${_LIST_DISTFILES} ${_LIST_SUPDISTFILES}
+DISTFILES +=		tryton-sao-${VERSION}.tgz \
+			sao-dependencies-${TRYTON_VERSION}-${DEPVERSION}.zip:0
 
 BUILD_DEPENDS +=	lang/node
 
