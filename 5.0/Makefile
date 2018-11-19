@@ -12,6 +12,7 @@ SUBDIR +=	account_dunning
 SUBDIR +=	account_dunning_email
 SUBDIR +=	account_dunning_fee
 SUBDIR +=	account_dunning_letter
+SUBDIR +=	account_es
 SUBDIR +=	account_eu
 SUBDIR +=	account_fr
 SUBDIR +=	account_fr_chorus
