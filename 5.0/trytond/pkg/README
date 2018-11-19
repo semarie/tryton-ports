@@ -119,7 +119,8 @@ Upgrade path is possible from N to N+1 version.
 
 Follow indications at https://discuss.tryton.org/c/migration .
 
-Please take care that possibly some actions are required to be done BEFORE updating.
+Please take care that possibly some actions are required to be done BEFORE
+updating.
 
 
 Customization via trytond modules
