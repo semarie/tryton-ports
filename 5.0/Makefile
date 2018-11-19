@@ -5,6 +5,7 @@ SUBDIR =
 SUBDIR +=	account
 SUBDIR +=	account_asset
 SUBDIR +=	account_be
+SUBDIR +=	account_credit_limit
 SUBDIR +=	account_eu
 SUBDIR +=	account_fr
 SUBDIR +=	account_fr_chorus
