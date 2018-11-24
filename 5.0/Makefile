@@ -24,6 +24,7 @@ SUBDIR +=	account_invoice_stock
 SUBDIR +=	account_payment
 SUBDIR +=	account_payment_clearing
 SUBDIR +=	account_payment_sepa
+SUBDIR +=	account_payment_sepa_cfonb
 SUBDIR +=	account_product
 SUBDIR +=	account_statement
 SUBDIR +=	account_statement_ofx
