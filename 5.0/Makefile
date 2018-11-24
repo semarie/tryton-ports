@@ -18,6 +18,7 @@ SUBDIR +=	account_fr
 SUBDIR +=	account_fr_chorus
 SUBDIR +=	account_invoice
 SUBDIR +=	account_invoice_correction
+SUBDIR +=	account_invoice_history
 SUBDIR +=	account_invoice_stock
 SUBDIR +=	account_payment
 SUBDIR +=	account_payment_clearing
