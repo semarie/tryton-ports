@@ -3,10 +3,10 @@
 MODPY_EGG_VERSION =	5.0.1
 TRYTON_MODULE =		stock
 
-TRYTON_DEPENDS +=	company
-TRYTON_DEPENDS += 	currency
-TRYTON_DEPENDS +=	party
-TRYTON_DEPENDS +=	product
+TRYTON_DEPENDS +=	company \
+			currency \
+			party \
+			product
 
 RUN_DEPENDS +=		databases/py-sql${MODPY_FLAVOR}
 

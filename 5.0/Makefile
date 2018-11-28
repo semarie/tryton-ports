@@ -2,6 +2,13 @@
 
 SUBDIR =
 
+# server, clients, library
+SUBDIR +=	proteus
+SUBDIR +=	sao
+SUBDIR +=	tryton
+SUBDIR +=	trytond
+
+# modules
 SUBDIR +=	account
 SUBDIR +=	account_asset
 SUBDIR +=	account_be
@@ -54,10 +61,5 @@ SUBDIR +=	purchase
 SUBDIR +=	stock
 #SUBDIR +=	stock_shipment_measurements
 #SUBDIR +=	stock_supply
-
-SUBDIR +=	proteus
-SUBDIR +=	sao
-SUBDIR +=	tryton
-SUBDIR +=	trytond
 
 .include <bsd.port.subdir.mk>

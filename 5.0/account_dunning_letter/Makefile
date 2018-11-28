@@ -3,9 +3,9 @@
 MODPY_EGG_VERSION =	5.0.0
 TRYTON_MODULE =		account_dunning_letter
 
-TRYTON_DEPENDS += 	account
-TRYTON_DEPENDS +=	account_dunning
-TRYTON_DEPENDS +=	company
-TRYTON_DEPENDS +=	party
+TRYTON_DEPENDS += 	account \
+			account_dunning \
+			company \
+			party
 
 .include <bsd.port.mk>

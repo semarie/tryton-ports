@@ -5,8 +5,8 @@ TRYTON_MODULE =		party
 
 TRYTON_DEPENDS +=	country
 
-RUN_DEPENDS +=		databases/py-sql${MODPY_FLAVOR}
-RUN_DEPENDS +=		devel/py-stdnum${MODPY_FLAVOR}
-RUN_DEPENDS +=		telephony/py-phonenumbers${MODPY_FLAVOR}
+RUN_DEPENDS +=		databases/py-sql${MODPY_FLAVOR} \
+			devel/py-stdnum${MODPY_FLAVOR} \
+			telephony/py-phonenumbers${MODPY_FLAVOR}
 
 .include <bsd.port.mk>

@@ -7,11 +7,12 @@ DISTNAME =		tryton-${MODPY_EGG_VERSION}
 
 TRYTON_PY =		Yes
 
-RUN_DEPENDS +=		devel/desktop-file-utils
-RUN_DEPENDS +=		x11/gtk+3,-guic
-RUN_DEPENDS +=		devel/py-gobject3${MODPY_FLAVOR}
-RUN_DEPENDS +=		x11/gnome/librsvg
-RUN_DEPENDS +=		devel/py-dateutil${MODPY_FLAVOR}
+RUN_DEPENDS +=		devel/desktop-file-utils \
+			x11/gtk+3,-guic \
+			devel/py-gobject3${MODPY_FLAVOR} \
+			x11/gnome/librsvg \
+			devel/py-dateutil${MODPY_FLAVOR}
+
 #RUN_DEPENDS +=		goocalendar	# optional, not ported
 
 NO_TEST =		Yes

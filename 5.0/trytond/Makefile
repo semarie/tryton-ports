@@ -9,20 +9,21 @@ TRYTON_PY =		Yes
 
 SUBST_VARS +=		TRYTON_VERSION
 
-RUN_DEPENDS +=		databases/py-psycopg2${MODPY_FLAVOR}
-RUN_DEPENDS += 		textproc/py-lxml${MODPY_FLAVOR}
-RUN_DEPENDS +=		print/py-relatorio${MODPY_FLAVOR}
-RUN_DEPENDS +=		www/py-genshi${MODPY_FLAVOR}
-RUN_DEPENDS +=		devel/py-dateutil${MODPY_FLAVOR}
-RUN_DEPENDS +=		textproc/py-polib${MODPY_FLAVOR}
-RUN_DEPENDS +=		databases/py-sql${MODPY_FLAVOR}
-RUN_DEPENDS +=		www/py-werkzeug${MODPY_FLAVOR}
-RUN_DEPENDS +=		devel/py-wrapt${MODPY_FLAVOR}
-RUN_DEPENDS +=		security/py-passlib${MODPY_FLAVOR}
+RUN_DEPENDS +=		databases/py-psycopg2${MODPY_FLAVOR} \
+			textproc/py-lxml${MODPY_FLAVOR} \
+			print/py-relatorio${MODPY_FLAVOR} \
+			www/py-genshi${MODPY_FLAVOR} \
+			devel/py-dateutil${MODPY_FLAVOR} \
+			textproc/py-polib${MODPY_FLAVOR} \
+			databases/py-sql${MODPY_FLAVOR} \
+			www/py-werkzeug${MODPY_FLAVOR} \
+			devel/py-wrapt${MODPY_FLAVOR} \
+			security/py-passlib${MODPY_FLAVOR} \
+			converters/py-html2text${MODPY_FLAVOR}
+
 #RUN_DEPENDS +=		graphics/pydot	# optional, port is py2 only
 #RUN_DEPENDS +=		levenshtein	# optional, not ported
 #RUN_DEPENDS +=		bcrypt		# optional, not ported
-RUN_DEPENDS +=		converters/py-html2text${MODPY_FLAVOR}
 
 
 post-install:
