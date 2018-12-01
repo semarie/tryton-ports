@@ -3,10 +3,14 @@
 MODPY_EGG_VERSION =	5.0.0
 TRYTON_MODULE =		account_payment_sepa
 
-TRYTON_DEPENDS +=	party \
-			currency
+TRYTON_DEPENDS +=	account_payment \
+			company \
+			bank \
+			party
 
-RUN_DEPENDS +=		devel/py-stdnum${MODPY_FLAVOR} \
-			databases/py-sql${MODPY_FLAVOR}
+RUN_DEPENDS +=		www/py-genshi${MODPY_FLAVOR} \
+			textproc/py-lxml${MODPY_FLAVOR} \
+			devel/py-dateutil${MODPY_FLAVOR} \
+			devel/py-stdnum${MODPY_FLAVOR}
 
 .include <bsd.port.mk>
