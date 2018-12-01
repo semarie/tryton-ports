@@ -61,6 +61,7 @@ SUBDIR +=	sale_supply
 SUDBIR +=	sale_supply_drop_shipment
 SUBDIR +=	stock
 #SUBDIR +=	stock_shipment_measurements
+SUBDIR +=	stock_package
 SUBDIR +=	stock_supply
 
 .include <bsd.port.subdir.mk>
