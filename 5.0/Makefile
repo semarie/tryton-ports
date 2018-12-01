@@ -58,6 +58,7 @@ SUBDIR +=	purchase
 SUBDIR +=	purchase_request
 SUBDIR +=	sale				# TODO optional pygal
 #SUDBIR +=	sale_supply_drop_shipment
+SUBDIR +=	sale_supply
 SUBDIR +=	stock
 #SUBDIR +=	stock_shipment_measurements
 SUBDIR +=	stock_supply
