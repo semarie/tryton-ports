@@ -1,4 +1,5 @@
 @comment $OpenBSD: PLIST,v$
+@option is-branch
 bin/tryton
 lib/python${MODPY_VERSION}/site-packages/tryton/
 lib/python${MODPY_VERSION}/site-packages/tryton-${MODPY_EGG_VERSION}-py${MODPY_VERSION}.egg-info/

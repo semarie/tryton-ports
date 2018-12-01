@@ -1,4 +1,5 @@
 @comment $OpenBSD: PLIST,v$
+@option is-branch
 lib/python${MODPY_VERSION}/site-packages/trytond/modules/account_payment_stripe/
 lib/python${MODPY_VERSION}/site-packages/trytond/modules/account_payment_stripe/__init__.py
 lib/python${MODPY_VERSION}/site-packages/trytond/modules/account_payment_stripe/${MODPY_PYCACHE}/

@@ -1,4 +1,5 @@
 @comment $OpenBSD: PLIST,v$
+@option is-branch
 share/doc/tryton-sao-${TRYTON_VERSION}/
 share/doc/tryton-sao-${TRYTON_VERSION}/CHANGELOG
 share/doc/tryton-sao-${TRYTON_VERSION}/COPYRIGHT
