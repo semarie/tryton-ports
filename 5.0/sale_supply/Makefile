@@ -3,7 +3,7 @@
 MODPY_EGG_VERSION =	5.0.1
 TRYTON_MODULE =		sale_supply
 
-TRYTON_DEPENDS =	purchase \
+TRYTON_DEPENDS +=	purchase \
 			purchase_request \
 			sale \
 			stock

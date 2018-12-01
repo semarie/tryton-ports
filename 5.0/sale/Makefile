@@ -3,7 +3,7 @@
 MODPY_EGG_VERSION =	5.0.1
 TRYTON_MODULE =		sale
 
-TRYTON_DEPENDS =	account \
+TRYTON_DEPENDS +=	account \
 			account_invoice \
 			account_invoice_stock \
 			account_product \

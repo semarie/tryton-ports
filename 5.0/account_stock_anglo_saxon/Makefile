@@ -3,7 +3,7 @@
 MODPY_EGG_VERSION =	5.0.0
 TRYTON_MODULE =		account_stock_anglo_saxon
 
-TRYTON_DEPENDS =	account \
+TRYTON_DEPENDS +=	account \
 			account_invoice \
 			account_invoice_stock \
 			account_product \
