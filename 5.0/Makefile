@@ -60,6 +60,6 @@ SUBDIR +=	sale				# TODO optional pygal
 #SUDBIR +=	sale_supply_drop_shipment
 SUBDIR +=	stock
 #SUBDIR +=	stock_shipment_measurements
-#SUBDIR +=	stock_supply
+SUBDIR +=	stock_supply
 
 .include <bsd.port.subdir.mk>
