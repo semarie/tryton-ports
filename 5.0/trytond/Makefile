@@ -25,6 +25,7 @@ RUN_DEPENDS +=		databases/py-psycopg2${MODPY_FLAVOR} \
 #RUN_DEPENDS +=		levenshtein	# optional, not ported
 #RUN_DEPENDS +=		bcrypt		# optional, not ported
 
+TEST_DEPENDS +=		${RUN_DEPENDS}
 
 post-install:
 	${INSTALL_DATA_DIR} ${PREFIX}/share/examples/trytond
