@@ -3,6 +3,6 @@
 MODPY_EGG_VERSION =	5.0.0
 TRYTON_MODULE =		account_invoice_correction
 
-TRYTON_DEPENDS +=	account_product
+TRYTON_DEPENDS +=	account_invoice
 
 .include <bsd.port.mk>
