@@ -7,6 +7,6 @@ TRYTON_DEPENDS +=	product \
 			product_measurements \
 			stock
 
-TEST_TRYTON_DEPENDS +=	stock_package
+TRYTON_TEST_DEPENDS +=	stock_package
 
 .include <bsd.port.mk>
