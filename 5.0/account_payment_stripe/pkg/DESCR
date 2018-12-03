@@ -1,2 +1,0 @@
-The account_payment_stripe module allows to receive payment from `Stripe`.
-It uses the checkout form in the browser.

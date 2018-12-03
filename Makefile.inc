@@ -1,4 +1,4 @@
-# $OpenBSD$
+# $OpenBSD: Makefile.inc,v 1.24 2018/12/03 12:33:47 semarie Exp $
 
 CATEGORIES ?=		productivity \
 			productivity/tryton

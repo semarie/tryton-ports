@@ -1,4 +1,4 @@
-$OpenBSD$
+$OpenBSD: README,v 1.1.1.1 2018/12/03 12:28:13 semarie Exp $
 
 PostgreSQL is the recommanded daemon for production usage. Trytond has support
 for SQLite too, but intented only for testing purpose.

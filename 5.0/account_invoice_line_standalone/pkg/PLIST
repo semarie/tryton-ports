@@ -1,4 +1,4 @@
-@comment $OpenBSD: PLIST,v$
+@comment $OpenBSD: PLIST,v 1.1.1.1 2018/12/03 12:28:21 semarie Exp $
 @option is-branch
 lib/python${MODPY_VERSION}/site-packages/trytond/modules/account_invoice_line_standalone/
 lib/python${MODPY_VERSION}/site-packages/trytond/modules/account_invoice_line_standalone/__init__.py
