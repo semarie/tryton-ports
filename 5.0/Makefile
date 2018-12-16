@@ -74,6 +74,7 @@ SUBDIR +=	product_classification_taxonomic
 SUBDIR +=	product_cost_fifo
 SUBDIR +=	product_cost_history
 SUBDIR +=	product_measurements
+SUBDIR +=	product_price_list
 SUBDIR +=	production
 SUBDIR +=	purchase
 SUBDIR +=	purchase_request
