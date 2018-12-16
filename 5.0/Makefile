@@ -51,6 +51,7 @@ SUBDIR +=	bank
 SUBDIR +=	carrier
 SUBDIR +=	carrier_percentage
 SUBDIR +=	carrier_weight
+SUBDIR +=	commission
 SUBDIR +=	company
 SUBDIR +=	country
 SUBDIR +=	currency
