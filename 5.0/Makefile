@@ -65,6 +65,7 @@ SUBDIR +=	google_maps
 #SUBDIR +=	ldap_authentication		# TODO ldap3
 SUBDIR +=	notification_email
 SUBDIR +=	party
+SUBDIR +=	party_relationship
 SUBDIR +=	party_siret
 SUBDIR +=	product
 SUBDIR +=	product_measurements
