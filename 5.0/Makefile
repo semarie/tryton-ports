@@ -48,6 +48,7 @@ SUBDIR +=	analytic_purchase
 SUBDIR +=	analytic_sale
 SUBDIR +=	authentication_sms
 SUBDIR +=	bank
+SUBDIR +=	carrier
 SUBDIR +=	company
 SUBDIR +=	country
 SUBDIR +=	currency
