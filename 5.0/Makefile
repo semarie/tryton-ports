@@ -80,6 +80,7 @@ SUBDIR +=	product_price_list_parent
 SUBDIR +=	production
 SUBDIR +=	production_outsourcing
 SUBDIR +=	production_routing
+SUBDIR +=	production_split
 SUBDIR +=	purchase
 SUBDIR +=	purchase_request
 SUBDIR +=	purchase_shipment_cost
