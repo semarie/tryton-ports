@@ -61,6 +61,7 @@ SUBDIR +=	currency
 SUBDIR +=	dashboard
 SUBDIR +=	edocument_uncefact
 SUBDIR +=	edocument_unece
+SUBDIR +=	google_maps
 #SUBDIR +=	ldap_authentication		# TODO ldap3
 SUBDIR +=	party
 SUBDIR +=	party_siret
