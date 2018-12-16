@@ -50,6 +50,7 @@ SUBDIR +=	bank
 SUBDIR +=	company
 SUBDIR +=	country
 SUBDIR +=	currency
+#SUBDIR +=	ldap_authentication		# TODO ldap3
 SUBDIR +=	party
 SUBDIR +=	party_siret
 SUBDIR +=	product
