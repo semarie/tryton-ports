@@ -63,5 +63,6 @@ SUBDIR +=	stock
 SUBDIR +=	stock_package
 SUBDIR +=	stock_shipment_measurements
 SUBDIR +=	stock_supply
+SUBDIR +=	web_user
 
 .include <bsd.port.subdir.mk>
