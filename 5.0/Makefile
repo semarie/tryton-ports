@@ -50,6 +50,7 @@ SUBDIR +=	authentication_sms
 SUBDIR +=	bank
 SUBDIR +=	carrier
 SUBDIR +=	carrier_percentage
+SUBDIR +=	carrier_weight
 SUBDIR +=	company
 SUBDIR +=	country
 SUBDIR +=	currency
