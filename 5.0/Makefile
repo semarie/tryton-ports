@@ -59,6 +59,7 @@ SUBDIR +=	customs
 SUBDIR +=	country
 SUBDIR +=	currency
 SUBDIR +=	dashboard
+SUBDIR +=	edocument_unece
 #SUBDIR +=	ldap_authentication		# TODO ldap3
 SUBDIR +=	party
 SUBDIR +=	party_siret
