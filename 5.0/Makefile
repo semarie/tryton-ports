@@ -54,6 +54,7 @@ SUBDIR +=	carrier_weight
 SUBDIR +=	commission
 SUBDIR +=	commission_waiting
 SUBDIR +=	company
+SUBDIR +=	company_work_time
 SUBDIR +=	country
 SUBDIR +=	currency
 #SUBDIR +=	ldap_authentication		# TODO ldap3
