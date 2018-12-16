@@ -75,6 +75,7 @@ SUBDIR +=	product_cost_fifo
 SUBDIR +=	product_cost_history
 SUBDIR +=	product_measurements
 SUBDIR +=	product_price_list
+SUBDIR +=	product_price_list_dates
 SUBDIR +=	production
 SUBDIR +=	purchase
 SUBDIR +=	purchase_request
