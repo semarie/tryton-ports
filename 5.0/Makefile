@@ -55,6 +55,7 @@ SUBDIR +=	commission
 SUBDIR +=	commission_waiting
 SUBDIR +=	company
 SUBDIR +=	company_work_time
+SUBDIR +=	customs
 SUBDIR +=	country
 SUBDIR +=	currency
 #SUBDIR +=	ldap_authentication		# TODO ldap3
