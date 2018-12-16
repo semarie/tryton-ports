@@ -46,6 +46,7 @@ SUBDIR +=	analytic_account
 SUBDIR +=	analytic_invoice
 SUBDIR +=	analytic_purchase
 SUBDIR +=	analytic_sale
+SUBDIR +=	authentication_sms
 SUBDIR +=	bank
 SUBDIR +=	company
 SUBDIR +=	country
