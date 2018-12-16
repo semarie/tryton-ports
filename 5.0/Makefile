@@ -58,6 +58,7 @@ SUBDIR +=	company_work_time
 SUBDIR +=	customs
 SUBDIR +=	country
 SUBDIR +=	currency
+SUBDIR +=	dashboard
 #SUBDIR +=	ldap_authentication		# TODO ldap3
 SUBDIR +=	party
 SUBDIR +=	party_siret
