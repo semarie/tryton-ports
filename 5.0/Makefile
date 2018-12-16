@@ -82,6 +82,7 @@ SUBDIR +=	production_outsourcing
 SUBDIR +=	production_routing
 SUBDIR +=	production_split
 SUBDIR +=	production_work
+SUBDIR +=	production_work_timesheet
 SUBDIR +=	purchase
 SUBDIR +=	purchase_request
 SUBDIR +=	purchase_shipment_cost
