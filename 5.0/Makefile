@@ -69,6 +69,7 @@ SUBDIR +=	party_relationship
 SUBDIR +=	party_siret
 SUBDIR +=	product
 SUBDIR +=	product_measurements
+SUBDIR +=	production
 SUBDIR +=	purchase
 SUBDIR +=	purchase_request
 SUBDIR +=	purchase_shipment_cost
