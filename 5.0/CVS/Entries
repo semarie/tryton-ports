@@ -54,4 +54,36 @@ D/stock_supply////
 D/tryton////
 D/trytond////
 /Makefile.inc/1.1.1.1/Mon Dec  3 12:42:53 2018//
-/Makefile/1.2/Sat Dec 15 15:07:58 2018//
+/Makefile/1.3/Wed Dec 19 08:29:58 2018//
+D/authentication_sms////
+D/carrier////
+D/carrier_percentage////
+D/carrier_weight////
+D/commission////
+D/commission_waiting////
+D/company_work_time////
+D/customs////
+D/dashboard////
+D/edocument_uncefact////
+D/edocument_unece////
+D/google_maps////
+D/notification_email////
+D/party_relationship////
+D/product_attribute////
+D/product_classification////
+D/product_classification_taxonomic////
+D/product_cost_fifo////
+D/product_cost_history////
+D/product_price_list////
+D/product_price_list_dates////
+D/product_price_list_parent////
+D/production////
+D/production_outsourcing////
+D/production_routing////
+D/production_split////
+D/production_work////
+D/production_work_timesheet////
+D/purchase_shipment_cost////
+D/sale_shipment_cost////
+D/timesheet////
+D/web_user////
