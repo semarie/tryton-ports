@@ -5,6 +5,7 @@ COMMENT =		tryton web client
 VERSION =		5.0.1
 DEPVERSION =		0
 DISTNAME =		tryton-sao-${VERSION}
+REVISION =		0
 
 EXTRACT_SUFX =		.tgz
 WRKDIST =		${WRKDIR}/package
@@ -44,5 +45,9 @@ do-install:
 	${INSTALL_DATA_DIR} ${PREFIX}/share/doc/tryton-sao-${TRYTON_VERSION}
 	${INSTALL_DATA} ${WRKSRC}/{README,LICENSE,COPYRIGHT,CHANGELOG} \
 		${PREFIX}/share/doc/tryton-sao-${TRYTON_VERSION}
+
+post-install:
+	rm -rf -- \
+		${PREFIX}/share/tryton-sao-${TRYTON_VERSION}/bower_components/*/docs
 
 .include <bsd.port.mk>
