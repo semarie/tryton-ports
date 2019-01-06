@@ -53,8 +53,6 @@ D/stock_shipment_measurements////
 D/stock_supply////
 D/tryton////
 D/trytond////
-/Makefile.inc/1.1.1.1/Mon Dec  3 12:42:53 2018//
-/Makefile/1.3/Wed Dec 19 08:29:58 2018//
 D/authentication_sms////
 D/carrier////
 D/carrier_percentage////
@@ -87,3 +85,5 @@ D/purchase_shipment_cost////
 D/sale_shipment_cost////
 D/timesheet////
 D/web_user////
+/Makefile/1.3/Wed Dec 19 08:34:29 2018//
+/Makefile.inc/1.1.1.1/Mon Dec  3 13:09:10 2018//
