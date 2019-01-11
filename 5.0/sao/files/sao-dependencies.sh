@@ -205,7 +205,7 @@ gettext_js			'0.5.5'		# ^0.5
 jquery				'3.3.1'		# ^3
 moment				'2.23.0'	# ^2.10
 mousetrap			'1.6.2'		# ^1.6
-papaparse			'4.6.2'		# ^4.1
+papaparse			'4.6.3'		# ^4.1
 
 # cleanup (ensure it is empty)
 rmdir "${EXTRACTDIR}"
