@@ -91,6 +91,7 @@ share/tryton-sao-${TRYTON_VERSION}/bower_components/fullcalendar/dist/locale/ar-
 share/tryton-sao-${TRYTON_VERSION}/bower_components/fullcalendar/dist/locale/ar-sa.js
 share/tryton-sao-${TRYTON_VERSION}/bower_components/fullcalendar/dist/locale/ar-tn.js
 share/tryton-sao-${TRYTON_VERSION}/bower_components/fullcalendar/dist/locale/ar.js
+share/tryton-sao-${TRYTON_VERSION}/bower_components/fullcalendar/dist/locale/be.js
 share/tryton-sao-${TRYTON_VERSION}/bower_components/fullcalendar/dist/locale/bg.js
 share/tryton-sao-${TRYTON_VERSION}/bower_components/fullcalendar/dist/locale/bs.js
 share/tryton-sao-${TRYTON_VERSION}/bower_components/fullcalendar/dist/locale/ca.js
@@ -153,6 +154,7 @@ share/tryton-sao-${TRYTON_VERSION}/bower_components/fullcalendar/dist/locale/tr.
 share/tryton-sao-${TRYTON_VERSION}/bower_components/fullcalendar/dist/locale/uk.js
 share/tryton-sao-${TRYTON_VERSION}/bower_components/fullcalendar/dist/locale/vi.js
 share/tryton-sao-${TRYTON_VERSION}/bower_components/fullcalendar/dist/locale/zh-cn.js
+share/tryton-sao-${TRYTON_VERSION}/bower_components/fullcalendar/dist/locale/zh-hk.js
 share/tryton-sao-${TRYTON_VERSION}/bower_components/fullcalendar/dist/locale/zh-tw.js
 share/tryton-sao-${TRYTON_VERSION}/bower_components/gettext.js/
 share/tryton-sao-${TRYTON_VERSION}/bower_components/gettext.js/dist/
