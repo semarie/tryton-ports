@@ -1,5 +1,9 @@
 $OpenBSD: README,v 1.3 2019/04/26 07:29:21 ajacoutot Exp $
 
++-------------------------------------------------------------------------------
+| Running ${PKGSTEM} on OpenBSD
++-------------------------------------------------------------------------------
+
 PostgreSQL is the recommended daemon for production usage. Trytond has support
 for SQLite too, but intended only for testing purpose.
 
