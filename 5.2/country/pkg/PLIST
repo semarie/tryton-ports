@@ -1,4 +1,4 @@
-@comment $OpenBSD: PLIST,v 1.1.1.1 2018/12/03 12:28:16 semarie Exp $
+@comment $OpenBSD: PLIST,v 1.1.1.1 2019/05/09 11:48:55 semarie Exp $
 @option is-branch
 bin/trytond_import_zip
 lib/python${MODPY_VERSION}/site-packages/trytond/modules/country/

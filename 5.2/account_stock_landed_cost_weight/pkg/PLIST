@@ -1,4 +1,4 @@
-@comment $OpenBSD: PLIST,v 1.1.1.1 2018/12/03 12:28:22 semarie Exp $
+@comment $OpenBSD: PLIST,v 1.1.1.1 2019/05/09 11:48:54 semarie Exp $
 @option is-branch
 lib/python${MODPY_VERSION}/site-packages/trytond/modules/account_stock_landed_cost_weight/
 lib/python${MODPY_VERSION}/site-packages/trytond/modules/account_stock_landed_cost_weight/__init__.py

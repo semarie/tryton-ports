@@ -1,4 +1,4 @@
-@comment $OpenBSD: PLIST,v 1.3 2019/02/22 07:24:36 semarie Exp $
+@comment $OpenBSD: PLIST,v 1.1.1.1 2019/05/09 11:49:00 semarie Exp $
 @option is-branch
 share/doc/tryton-sao-${TRYTON_VERSION}/
 share/doc/tryton-sao-${TRYTON_VERSION}/CHANGELOG

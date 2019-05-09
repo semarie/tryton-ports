@@ -1,4 +1,4 @@
-@comment $OpenBSD: PLIST,v 1.1.1.1 2018/12/19 08:15:16 semarie Exp $
+@comment $OpenBSD: PLIST,v 1.1.1.1 2019/05/09 11:48:55 semarie Exp $
 @option is-branch
 lib/python${MODPY_VERSION}/site-packages/trytond/modules/carrier_percentage/
 lib/python${MODPY_VERSION}/site-packages/trytond/modules/carrier_percentage/__init__.py

@@ -1,4 +1,4 @@
-@comment $OpenBSD: PLIST,v 1.1.1.1 2018/12/03 12:28:22 semarie Exp $
+@comment $OpenBSD: PLIST,v 1.1.1.1 2019/05/09 11:49:00 semarie Exp $
 @option is-branch
 lib/python${MODPY_VERSION}/site-packages/trytond/modules/stock_shipment_measurements/
 lib/python${MODPY_VERSION}/site-packages/trytond/modules/stock_shipment_measurements/__init__.py

@@ -1,4 +1,4 @@
-# $OpenBSD: Makefile,v 1.3 2019/04/22 11:22:49 semarie Exp $
+# $OpenBSD: Makefile,v 1.1.1.1 2019/05/09 11:48:56 semarie Exp $
 
 MODPY_EGG_VERSION =	5.2.0
 TRYTON_MODULE =		party
