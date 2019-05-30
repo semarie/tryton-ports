@@ -8,7 +8,7 @@ set -eu
 FETCHCMD='ftp'
 UNZIP='/usr/local/bin/7z x'
 
-TRYTON_VERSION='5.0'
+TRYTON_VERSION='5.2'
 
 umask 022
 
