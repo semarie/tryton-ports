@@ -1,4 +1,4 @@
-@comment $OpenBSD: PLIST,v 1.1.1.1 2018/12/03 12:28:17 semarie Exp $
+@comment $OpenBSD: PLIST,v 1.2 2019/06/12 04:41:57 semarie Exp $
 @option is-branch
 bin/tryton
 lib/python${MODPY_VERSION}/site-packages/tryton/
