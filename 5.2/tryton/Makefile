@@ -2,7 +2,7 @@
 
 COMMENT =		tryton desktop client
 
-MODPY_EGG_VERSION =	5.2.0
+MODPY_EGG_VERSION =	5.2.1
 DISTNAME =		tryton-${MODPY_EGG_VERSION}
 
 TRYTON_PY =		Yes

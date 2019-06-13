@@ -10,5 +10,5 @@ Index: tryton/config.py
 -            'client.check_version': True,
 +            'client.check_version': False,
              'client.bus_timeout': 10 * 60,
-             'icon.color': '#3465a4',
+             'icon.colors': '#3465a4,#555753,#cc0000',
              'image.max_size': 10 ** 6,
