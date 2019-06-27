@@ -8,7 +8,7 @@ HOMEPAGE ?=		https://www.tryton.org/
 MAINTAINER ?=		Sebastien Marie <semarie@online.fr>
 
 # GPLv3
-PERMIT_PACKAGE_CDROM ?=	Yes
+PERMIT_PACKAGE ?=	Yes
 
 MASTER_SITES =		https://downloads.tryton.org/${VERSION:C/^([0-9]+\.[0-9]+).*/\1/}/
 DIST_SUBDIR =		tryton
