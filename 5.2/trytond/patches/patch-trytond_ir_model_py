@@ -1,4 +1,4 @@
-$OpenBSD$
+$OpenBSD: patch-trytond_ir_model_py,v 1.1 2019/07/18 07:49:58 semarie Exp $
 backport issue8478 https://hg.tryton.org/trytond/rev/30b549397664
 Skip the Function field without setter in Data.sync()
 

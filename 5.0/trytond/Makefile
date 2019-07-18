@@ -1,4 +1,4 @@
-# $OpenBSD: Makefile,v 1.14 2019/07/02 10:21:27 semarie Exp $
+# $OpenBSD: Makefile,v 1.15 2019/07/18 07:51:14 semarie Exp $
 
 COMMENT =		3-tiers general purpose business application framework
 

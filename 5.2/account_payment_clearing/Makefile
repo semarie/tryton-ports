@@ -1,4 +1,4 @@
-# $OpenBSD: Makefile,v 1.2 2019/07/02 10:21:27 semarie Exp $
+# $OpenBSD: Makefile,v 1.3 2019/07/18 07:49:58 semarie Exp $
 
 MODPY_EGG_VERSION =	5.2.2
 TRYTON_MODULE =		account_payment_clearing
