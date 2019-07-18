@@ -1,6 +1,6 @@
 # $OpenBSD$
 
-MODPY_EGG_VERSION =	5.0.1
+MODPY_EGG_VERSION =	5.0.2
 TRYTON_MODULE =		ldap_authentication
 
 RUN_DEPENDS +=		databases/py-ldap3${MODPY_FLAVOR}
