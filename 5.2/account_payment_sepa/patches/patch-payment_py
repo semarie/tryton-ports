@@ -1,6 +1,7 @@
-$OpenBSD$
-backport for issue8550
-https://hg.tryton.org/modules/account_payment_sepa/rev/217d73cb3e16
+$OpenBSD: patch-payment_py,v 1.1 2019/08/02 11:18:44 semarie Exp $
+backport for issue8550 https://hg.tryton.org/modules/account_payment_sepa/rev/217d73cb3e16
+Use move_origin instead of origin to generate sepa_remittance_information
+
 Index: payment.py
 --- payment.py.orig
 +++ payment.py

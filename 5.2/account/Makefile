@@ -1,4 +1,4 @@
-# $OpenBSD: Makefile,v 1.4 2019/07/18 07:49:58 semarie Exp $
+# $OpenBSD: Makefile,v 1.5 2019/08/02 11:18:44 semarie Exp $
 
 MODPY_EGG_VERSION =	5.2.3
 TRYTON_MODULE =		account
