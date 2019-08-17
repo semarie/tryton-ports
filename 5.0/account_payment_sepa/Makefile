@@ -1,4 +1,4 @@
-# $OpenBSD: Makefile,v 1.4 2019/04/28 20:51:48 sthen Exp $
+# $OpenBSD: Makefile,v 1.5 2019/08/17 17:24:31 semarie Exp $
 
 MODPY_EGG_VERSION =	5.0.3
 TRYTON_MODULE =		account_payment_sepa
