@@ -2,7 +2,7 @@
 
 COMMENT =		tryton web client
 
-VERSION =		5.2.2
+VERSION =		5.2.5
 DEPVERSION =		3
 DISTNAME =		tryton-sao-${VERSION}
 
