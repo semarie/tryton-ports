@@ -1,4 +1,4 @@
-# $OpenBSD: Makefile,v 1.14 2019/09/02 17:40:14 semarie Exp $
+# $OpenBSD: Makefile,v 1.15 2019/09/15 16:37:26 semarie Exp $
 
 COMMENT =		tryton desktop client
 

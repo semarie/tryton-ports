@@ -1,4 +1,4 @@
-@comment $OpenBSD: PLIST,v 1.1.1.1 2018/12/19 08:15:47 semarie Exp $
+@comment $OpenBSD: PLIST,v 1.2 2019/09/15 16:37:26 semarie Exp $
 @option is-branch
 lib/python${MODPY_VERSION}/site-packages/trytond/modules/carrier_weight/
 lib/python${MODPY_VERSION}/site-packages/trytond/modules/carrier_weight/__init__.py
