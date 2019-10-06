@@ -2,8 +2,8 @@
 
 COMMENT =		tryton web client
 
-VERSION =		5.0.14
-DEPVERSION =		10
+VERSION =		5.0.15
+DEPVERSION =		11
 DISTNAME =		tryton-sao-${VERSION}
 
 EXTRACT_SUFX =		.tgz
