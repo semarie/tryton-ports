@@ -2,7 +2,7 @@
 
 COMMENT =		library to access Tryton models like a client
 
-MODPY_EGG_VERSION =	5.0.4
+MODPY_EGG_VERSION =	5.0.7
 DISTNAME =		proteus-${MODPY_EGG_VERSION}
 
 TRYTON_PY =		Yes
