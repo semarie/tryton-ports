@@ -1,4 +1,4 @@
-# $OpenBSD: Makefile,v 1.6 2019/09/15 16:37:26 semarie Exp $
+# $OpenBSD: Makefile,v 1.7 2019/12/11 07:19:54 semarie Exp $
 
 COMMENT =		library to access Tryton models like a client
 
