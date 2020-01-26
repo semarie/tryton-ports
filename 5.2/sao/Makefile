@@ -2,13 +2,14 @@
 
 COMMENT =		tryton web client
 
-VERSION =		5.2.7
-DEPVERSION =		4
+VERSION =		5.2.10
+DEPVERSION =		5
 DISTNAME =		tryton-sao-${VERSION}
 
 EXTRACT_SUFX =		.tgz
 WRKDIST =		${WRKDIR}/package
 
+# sao-dependencies is generated using https://github.com/semarie/sao-dependencies
 MASTER_SITES0 =		http://kapouay.odns.fr/pub/tryton/
 DISTFILES +=		tryton-sao-${VERSION}.tgz \
 			sao-dependencies-${TRYTON_VERSION}-${DEPVERSION}.tar.gz:0
@@ -28,7 +29,7 @@ do-install:
 		images \
 		index.html \
 	| tar xf - -C ${PREFIX}/share/tryton-sao-${TRYTON_VERSION}
-	cd ${WRKDIR}/sao-dependencies-${TRYTON_VERSION} && tar cf - bower_components \
+	cd ${WRKDIR}/sao-dependencies-${TRYTON_VERSION}-${DEPVERSION} && tar cf - bower_components \
 	| tar xf - -C ${PREFIX}/share/tryton-sao-${TRYTON_VERSION}
 
 	${INSTALL_DATA_DIR} ${PREFIX}/share/examples/tryton-sao-${TRYTON_VERSION}
@@ -36,7 +37,7 @@ do-install:
 		${PREFIX}/share/examples/tryton-sao-${TRYTON_VERSION}
 
 	${INSTALL_DATA_DIR} ${PREFIX}/share/doc/tryton-sao-${TRYTON_VERSION}
-	${INSTALL_DATA} ${WRKSRC}/{README.rst,LICENSE,COPYRIGHT,CHANGELOG} \
+	${INSTALL_DATA} ${WRKSRC}/{README.md,LICENSE,COPYRIGHT,CHANGELOG} \
 		${PREFIX}/share/doc/tryton-sao-${TRYTON_VERSION}
 
 .include <bsd.port.mk>
