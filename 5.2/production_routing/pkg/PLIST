@@ -1,4 +1,4 @@
-@comment $OpenBSD: PLIST,v 1.1.1.1 2019/05/09 11:48:58 semarie Exp $
+@comment $OpenBSD: PLIST,v 1.2 2020/04/10 15:22:49 semarie Exp $
 @option is-branch
 lib/python${MODPY_VERSION}/site-packages/trytond/modules/production_routing/
 lib/python${MODPY_VERSION}/site-packages/trytond/modules/production_routing/__init__.py

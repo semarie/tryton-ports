@@ -1,4 +1,4 @@
-# $OpenBSD: Makefile,v 1.2 2019/12/11 07:20:51 semarie Exp $
+# $OpenBSD: Makefile,v 1.3 2020/04/10 15:22:41 semarie Exp $
 
 MODPY_EGG_VERSION =	5.2.2
 TRYTON_MODULE =		account_deposit

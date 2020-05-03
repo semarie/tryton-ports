@@ -1,4 +1,4 @@
-# $OpenBSD: Makefile,v 1.4 2019/08/17 17:24:32 semarie Exp $
+# $OpenBSD: Makefile,v 1.5 2020/04/10 15:21:13 semarie Exp $
 
 MODPY_EGG_VERSION =	5.0.3
 TRYTON_MODULE =		edocument_uncefact
