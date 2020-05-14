@@ -1,4 +1,4 @@
-@comment $OpenBSD: PLIST,v 1.1.1.1 2018/12/19 08:27:19 semarie Exp $
+@comment $OpenBSD: PLIST,v 1.2 2020/05/14 17:25:15 semarie Exp $
 @option is-branch
 lib/python${MODPY_VERSION}/site-packages/trytond/modules/sale_shipment_cost/
 lib/python${MODPY_VERSION}/site-packages/trytond/modules/sale_shipment_cost/__init__.py
