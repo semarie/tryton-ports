@@ -1,8 +1,7 @@
 # $OpenBSD: Makefile,v 1.6 2020/07/03 21:12:28 sthen Exp $
 
-MODPY_EGG_VERSION =	5.0.3
+MODPY_EGG_VERSION =	5.0.5
 TRYTON_MODULE =		purchase
-REVISION =		0
 
 TRYTON_DEPENDS +=	account \
 			account_invoice \

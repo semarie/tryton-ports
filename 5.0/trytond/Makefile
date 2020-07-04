@@ -2,9 +2,8 @@
 
 COMMENT =		3-tiers general purpose business application framework
 
-MODPY_EGG_VERSION =	5.0.21
+MODPY_EGG_VERSION =	5.0.23
 DISTNAME =		trytond-${MODPY_EGG_VERSION}
-REVISION =		0
 
 TRYTON_PY =		Yes
 
